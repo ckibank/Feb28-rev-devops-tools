@@ -82,7 +82,7 @@ pipeline {
 
 stage('JiraUpdate') {
     steps {
-        jiraComment body: "Sonar Passed & pushed to Nexus (Job: ${env.JOB_NAME}, Build: ${env.BUILD_NUMBER})", issueKey: 'MBA-3'
+        jiraComment body: "Sonar Passed & pushed to Nexus (Job: ${env.JOB_NAME}, Build: ${env.BUILD_NUMBER})", issueKey: 'JR-2'
     }
 }
 
