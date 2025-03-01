@@ -3,6 +3,7 @@ pipeline {
     agent any
     tools {
         maven "M3"
+        // sonarQubeScanner 'SonarQube-Server'
     }
 
 	environment {
@@ -61,7 +62,7 @@ pipeline {
                 nexusArtifactUploader(
                     credentialsId: 'nexus-jenkins',
                     groupId: "${groupId}",
-                    nexusUrl: 'turbo-parakeet-rxxv79qx654cwv7-8081.app.github.dev',
+                    nexusUrl: 'animated-space-halibut-7xx47q6xxgrh4p9-8081.app.github.dev',
                     nexusVersion: 'nexus3',
                     protocol: 'https',
                     repository: 'echop',
