@@ -8,11 +8,11 @@ pipeline {
 
 	environment {
         script {
-		pom = readMavenPom(file: 'calculator/pom.xml')
-		artifactId = pom.getArtifactId()
-		version = pom.getVersion()
-		name = pom.getName()
-		groupId = pom.getGroupId()
+            def pom = readMavenPom(file: 'calculator/pom.xml')
+            def artifactId = pom.getArtifactId()
+            def version = pom.getVersion()
+            def name = pom.getName()
+            def groupId = pom.getGroupId()
         }
 	}
 
