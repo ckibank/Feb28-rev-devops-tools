@@ -1,0 +1,261 @@
+{
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10010.requestTypePractice",
+    "id": "10003",
+    "self": "https://ibanklearning-team.atlassian.net/rest/api/2/issue/10003",
+    "key": "MBA-3",
+    "fields": {
+        "statuscategorychangedate": "2025-03-01T06:17:45.997+0000",
+        "issuetype": {
+            "self": "https://ibanklearning-team.atlassian.net/rest/api/2/issuetype/10001",
+            "id": "10001",
+            "description": "Tasks track small, distinct pieces of work.",
+            "iconUrl": "https://ibanklearning-team.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+            "name": "Task",
+            "subtask": false,
+            "avatarId": 10318,
+            "entityId": "5eb9b8aa-3ef7-4882-ad4d-4e895fc46a6a",
+            "hierarchyLevel": 0
+        },
+        "parent": {
+            "id": "10000",
+            "key": "MBA-1",
+            "self": "https://ibanklearning-team.atlassian.net/rest/api/2/issue/10000",
+            "fields": {
+                "summary": "(Sample) Transaction Management",
+                "status": {
+                    "self": "https://ibanklearning-team.atlassian.net/rest/api/2/status/10000",
+                    "description": "",
+                    "iconUrl": "https://ibanklearning-team.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10000",
+                    "statusCategory": {
+                        "self": "https://ibanklearning-team.atlassian.net/rest/api/2/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "priority": {
+                    "self": "https://ibanklearning-team.atlassian.net/rest/api/2/priority/3",
+                    "iconUrl": "https://ibanklearning-team.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "issuetype": {
+                    "self": "https://ibanklearning-team.atlassian.net/rest/api/2/issuetype/10002",
+                    "id": "10002",
+                    "description": "Epics track collections of related bugs, stories, and tasks.",
+                    "iconUrl": "https://ibanklearning-team.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                    "name": "Epic",
+                    "subtask": false,
+                    "avatarId": 10307,
+                    "entityId": "a85bc28c-731c-4369-91f9-8f32e74e99ab",
+                    "hierarchyLevel": 1
+                }
+            }
+        },
+        "timespent": null,
+        "customfield_10030": null,
+        "project": {
+            "self": "https://ibanklearning-team.atlassian.net/rest/api/2/project/10000",
+            "id": "10000",
+            "key": "MBA",
+            "name": "Mobile Banking App",
+            "projectTypeKey": "software",
+            "simplified": true,
+            "avatarUrls": {
+                "48x48": "https://ibanklearning-team.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10423",
+                "24x24": "https://ibanklearning-team.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10423?size=small",
+                "16x16": "https://ibanklearning-team.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10423?size=xsmall",
+                "32x32": "https://ibanklearning-team.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10423?size=medium"
+            }
+        },
+        "customfield_10031": null,
+        "fixVersions": [],
+        "aggregatetimespent": null,
+        "customfield_10034": null,
+        "resolution": null,
+        "customfield_10035": null,
+        "customfield_10036": null,
+        "customfield_10027": null,
+        "customfield_10028": null,
+        "customfield_10029": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "issuerestriction": {
+            "issuerestrictions": {},
+            "shouldDisplay": true
+        },
+        "lastViewed": "2025-03-01T06:44:58.612+0000",
+        "watches": {
+            "self": "https://ibanklearning-team.atlassian.net/rest/api/2/issue/MBA-3/watchers",
+            "watchCount": 1,
+            "isWatching": true
+        },
+        "created": "2025-03-01T06:17:45.648+0000",
+        "customfield_10020": null,
+        "customfield_10021": null,
+        "customfield_10022": null,
+        "priority": {
+            "self": "https://ibanklearning-team.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://ibanklearning-team.atlassian.net/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+        },
+        "customfield_10023": null,
+        "customfield_10024": null,
+        "customfield_10025": null,
+        "labels": [],
+        "customfield_10026": null,
+        "customfield_10016": null,
+        "customfield_10017": null,
+        "customfield_10018": {
+            "hasEpicLinkFieldDependency": false,
+            "showField": false,
+            "nonEditableReason": {
+                "reason": "EPIC_LINK_SHOULD_BE_USED",
+                "message": "To set an epic as the parent, use the epic link instead"
+            }
+        },
+        "customfield_10019": "0|i0000f:",
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "issuelinks": [],
+        "assignee": null,
+        "updated": "2025-03-01T06:47:20.173+0000",
+        "status": {
+            "self": "https://ibanklearning-team.atlassian.net/rest/api/2/status/10001",
+            "description": "",
+            "iconUrl": "https://ibanklearning-team.atlassian.net/",
+            "name": "In Progress",
+            "id": "10001",
+            "statusCategory": {
+                "self": "https://ibanklearning-team.atlassian.net/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "In Progress"
+            }
+        },
+        "components": [],
+        "timeoriginalestimate": null,
+        "description": "Allow users to view their transaction history in the app.",
+        "customfield_10010": null,
+        "customfield_10014": null,
+        "timetracking": {},
+        "customfield_10015": null,
+        "customfield_10005": null,
+        "customfield_10006": null,
+        "customfield_10007": null,
+        "security": null,
+        "customfield_10008": null,
+        "customfield_10009": null,
+        "aggregatetimeestimate": null,
+        "attachment": [],
+        "summary": "(Sample) View Transaction History",
+        "creator": {
+            "self": "https://ibanklearning-team.atlassian.net/rest/api/2/user?accountId=712020%3A6aaad498-9e21-4391-92e2-3cf57c241cbd",
+            "accountId": "712020:6aaad498-9e21-4391-92e2-3cf57c241cbd",
+            "emailAddress": "ck@ibanklearning.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png",
+                "24x24": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png",
+                "16x16": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png",
+                "32x32": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png"
+            },
+            "displayName": "Ck",
+            "active": true,
+            "timeZone": "Europe/London",
+            "accountType": "atlassian"
+        },
+        "subtasks": [],
+        "reporter": {
+            "self": "https://ibanklearning-team.atlassian.net/rest/api/2/user?accountId=712020%3A6aaad498-9e21-4391-92e2-3cf57c241cbd",
+            "accountId": "712020:6aaad498-9e21-4391-92e2-3cf57c241cbd",
+            "emailAddress": "ck@ibanklearning.com",
+            "avatarUrls": {
+                "48x48": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png",
+                "24x24": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png",
+                "16x16": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png",
+                "32x32": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png"
+            },
+            "displayName": "Ck",
+            "active": true,
+            "timeZone": "Europe/London",
+            "accountType": "atlassian"
+        },
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "customfield_10001": null,
+        "customfield_10002": [],
+        "customfield_10003": null,
+        "customfield_10004": null,
+        "environment": null,
+        "duedate": null,
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "votes": {
+            "self": "https://ibanklearning-team.atlassian.net/rest/api/2/issue/MBA-3/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "comment": {
+            "comments": [
+                {
+                    "self": "https://ibanklearning-team.atlassian.net/rest/api/2/issue/10003/comment/10000",
+                    "id": "10000",
+                    "author": {
+                        "self": "https://ibanklearning-team.atlassian.net/rest/api/2/user?accountId=712020%3A6aaad498-9e21-4391-92e2-3cf57c241cbd",
+                        "accountId": "712020:6aaad498-9e21-4391-92e2-3cf57c241cbd",
+                        "emailAddress": "ck@ibanklearning.com",
+                        "avatarUrls": {
+                            "48x48": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png",
+                            "24x24": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png",
+                            "16x16": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png",
+                            "32x32": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png"
+                        },
+                        "displayName": "Ck",
+                        "active": true,
+                        "timeZone": "Europe/London",
+                        "accountType": "atlassian"
+                    },
+                    "body": "Starting in browser",
+                    "updateAuthor": {
+                        "self": "https://ibanklearning-team.atlassian.net/rest/api/2/user?accountId=712020%3A6aaad498-9e21-4391-92e2-3cf57c241cbd",
+                        "accountId": "712020:6aaad498-9e21-4391-92e2-3cf57c241cbd",
+                        "emailAddress": "ck@ibanklearning.com",
+                        "avatarUrls": {
+                            "48x48": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png",
+                            "24x24": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png",
+                            "16x16": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png",
+                            "32x32": "https://secure.gravatar.com/avatar/b69cfc4c3d3f3aba3327661c4c3eec4b?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FC-0.png"
+                        },
+                        "displayName": "Ck",
+                        "active": true,
+                        "timeZone": "Europe/London",
+                        "accountType": "atlassian"
+                    },
+                    "created": "2025-03-01T06:47:20.173+0000",
+                    "updated": "2025-03-01T06:47:20.173+0000",
+                    "jsdPublic": true
+                }
+            ],
+            "self": "https://ibanklearning-team.atlassian.net/rest/api/2/issue/10003/comment",
+            "maxResults": 1,
+            "total": 1,
+            "startAt": 0
+        },
+        "worklog": {
+            "startAt": 0,
+            "maxResults": 20,
+            "total": 0,
+            "worklogs": []
+        }
+    }
+}
